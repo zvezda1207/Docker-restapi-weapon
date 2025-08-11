@@ -1,0 +1,22 @@
+### Тестирование API оружия
+
+# Получить список всех оружий
+GET http://localhost:8000/demo/
+
+###
+
+# Получить конкретное оружие по ID
+GET http://localhost:8000/weapon/1/
+
+###
+
+# Отправить POST запрос (возвращает статус)
+POST http://localhost:8000/demo/
+Content-Type: application/json
+
+{}
+
+###
+
+# Проверить админ панель
+GET http://localhost:8000/admin/
